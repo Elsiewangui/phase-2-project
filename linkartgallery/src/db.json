@@ -1,0 +1,205 @@
+{
+    "artdata": [
+      {
+        "id": 1,
+        "title": "Starry Night",
+        "artist": "Vincent van Gogh",
+        "year": 1889,
+        "description": "A famous painting of a starry sky over a small town.",
+        "imageUrl": "https://example.com/starry-night.jpg"
+      },
+      {
+        "id": 2,
+        "title": "The Persistence of Memory",
+        "artist": "Salvador Dalí",
+        "year": 1931,
+        "description": "A surreal painting featuring melting clocks.",
+        "imageUrl": "https://example.com/persistence-of-memory.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Mona Lisa",
+        "artist": "Leonardo da Vinci",
+        "year": 1503,
+        "description": "A portrait of a woman with a mysterious smile.",
+        "imageUrl": "https://example.com/mona-lisa.jpg"
+      },
+      {
+        "id": 4,
+        "title": "The Scream",
+        "artist": "Edvard Munch",
+        "year": 1893,
+        "description": "An iconic painting of a figure screaming under a swirling sky.",
+        "imageUrl": "https://example.com/the-scream.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Girl with a Pearl Earring",
+        "artist": "Johannes Vermeer",
+        "year": 1665,
+        "description": "A portrait of a girl wearing a pearl earring.",
+        "imageUrl": "https://example.com/girl-with-pearl-earring.jpg"
+      },
+      {
+        "id": 6,
+        "title": "The Night Watch",
+        "artist": "Rembrandt van Rijn",
+        "year": 1642,
+        "description": "A large Baroque painting showing a city guard moving out.",
+        "imageUrl": "https://example.com/the-night-watch.jpg"
+      },
+      {
+        "id": 7,
+        "title": "The Birth of Venus",
+        "artist": "Sandro Botticelli",
+        "year": 1486,
+        "description": "A Renaissance painting depicting the goddess Venus emerging from the sea.",
+        "imageUrl": "https://example.com/the-birth-of-venus.jpg"
+      },
+      {
+        "id": 8,
+        "title": "American Gothic",
+        "artist": "Grant Wood",
+        "year": 1930,
+        "description": "A painting depicting a farmer and his daughter in front of their house.",
+        "imageUrl": "https://example.com/american-gothic.jpg"
+      },
+      {
+        "id": 9,
+        "title": "The Last Supper",
+        "artist": "Leonardo da Vinci",
+        "year": 1498,
+        "description": "A mural painting representing the last meal shared by Jesus with his disciples.",
+        "imageUrl": "https://example.com/the-last-supper.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Water Lilies",
+        "artist": "Claude Monet",
+        "year": 1919,
+        "description": "A series of paintings depicting Monet's flower garden at Giverny.",
+        "imageUrl": "https://example.com/water-lilies.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Guernica",
+        "artist": "Pablo Picasso",
+        "year": 1937,
+        "description": "A large mural depicting the horrors of the Spanish Civil War.",
+        "imageUrl": "https://example.com/guernica.jpg"
+      },
+      {
+        "id": 12,
+        "title": "The Kiss",
+        "artist": "Gustav Klimt",
+        "year": 1908,
+        "description": "A painting symbolizing love, showing a couple embracing in a field of flowers.",
+        "imageUrl": "https://example.com/the-kiss.jpg"
+      },
+      {
+        "id": 13,
+        "title": "The Creation of Adam",
+        "artist": "Michelangelo",
+        "year": 1512,
+        "description": "A fresco painting depicting God giving life to Adam.",
+        "imageUrl": "https://example.com/the-creation-of-adam.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Las Meninas",
+        "artist": "Diego Velázquez",
+        "year": 1656,
+        "description": "A Baroque painting showing the Infanta Margarita Teresa surrounded by her entourage.",
+        "imageUrl": "https://example.com/las-meninas.jpg"
+      },
+      {
+        "id": 15,
+        "title": "Self-Portrait with Thorn Necklace and Hummingbird",
+        "artist": "Frida Kahlo",
+        "year": 1940,
+        "description": "A self-portrait reflecting the artist's pain and resilience.",
+        "imageUrl": "https://example.com/self-portrait-kahlo.jpg"
+      },
+      {
+        "id": 16,
+        "title": "The Garden of Earthly Delights",
+        "artist": "Hieronymus Bosch",
+        "year": 1505,
+        "description": "A triptych painting showing a fantastical landscape.",
+        "imageUrl": "https://example.com/garden-of-earthly-delights.jpg"
+      },
+      {
+        "id": 17,
+        "title": "The School of Athens",
+        "artist": "Raphael",
+        "year": 1511,
+        "description": "A fresco representing philosophy, depicting various ancient philosophers.",
+        "imageUrl": "https://example.com/school-of-athens.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Whistler's Mother",
+        "artist": "James McNeill Whistler",
+        "year": 1871,
+        "description": "A painting showing the artist's mother in profile.",
+        "imageUrl": "https://example.com/whistlers-mother.jpg"
+      },
+      {
+        "id": 19,
+        "title": "The Arnolfini Portrait",
+        "artist": "Jan van Eyck",
+        "year": 1434,
+        "description": "A painting showing a wealthy couple in their home.",
+        "imageUrl": "https://example.com/arnolfini-portrait.jpg"
+      },
+      {
+        "id": 20,
+        "title": "The Hay Wain",
+        "artist": "John Constable",
+        "year": 1821,
+        "description": "A landscape painting showing a rural scene with a cart in a river.",
+        "imageUrl": "https://example.com/hay-wain.jpg"
+      },
+      {
+        "id": 21,
+        "title": "Bal du moulin de la Galette",
+        "artist": "Pierre-Auguste Renoir",
+        "year": 1876,
+        "description": "A painting depicting a lively dance scene at a Parisian café.",
+        "imageUrl": "https://example.com/bal-du-moulin-de-la-galette.jpg"
+      },
+      {
+        "id": 22,
+        "title": "Impression, Sunrise",
+        "artist": "Claude Monet",
+        "year": 1872,
+        "description": "A painting that gave the name to the Impressionist movement.",
+        "imageUrl": "https://example.com/impression-sunrise.jpg"
+      },
+      {
+        "id": 23,
+        "title": "The Card Players",
+        "artist": "Paul Cézanne",
+        "year": 1895,
+        "description": "A series of paintings depicting Provençal peasants playing cards.",
+        "imageUrl": "https://example.com/the-card-players.jpg"
+      },
+      {
+        "id": 24,
+        "title": "The Blue Boy",
+        "artist": "Thomas Gainsborough",
+        "year": 1770,
+        "description": "A portrait of a young boy dressed in blue.",
+        "imageUrl": "https://example.com/the-blue-boy.jpg"
+      },
+      {
+        "id": 25,
+        "title": "No. 5, 1948",
+        "artist": "Jackson Pollock",
+        "year": 1948,
+        "description": "An abstract expressionist painting featuring drips and splatters.",
+        "imageUrl": "https://example.com/no-5-1948.jpg"
+      }
+    ]
+  }
+  
