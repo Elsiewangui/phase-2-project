@@ -6,7 +6,7 @@
         "artist": "Vincent van Gogh",
         "year": 1889,
         "description": "A famous painting of a starry sky over a small town.",
-        "imageUrl": "https://example.com/starry-night.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/350px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "artist": "Salvador Dalí",
         "year": 1931,
         "description": "A surreal painting featuring melting clocks.",
-        "imageUrl": "https://example.com/persistence-of-memory.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/The_Persistence_of_Memory.jpg/300px-The_Persistence_of_Memory.jpg"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "artist": "Leonardo da Vinci",
         "year": 1503,
         "description": "A portrait of a woman with a mysterious smile.",
-        "imageUrl": "https://example.com/mona-lisa.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/220px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "artist": "Edvard Munch",
         "year": 1893,
         "description": "An iconic painting of a figure screaming under a swirling sky.",
-        "imageUrl": "https://example.com/the-scream.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/220px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "artist": "Johannes Vermeer",
         "year": 1665,
         "description": "A portrait of a girl wearing a pearl earring.",
-        "imageUrl": "https://example.com/girl-with-pearl-earring.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/270px-1665_Girl_with_a_Pearl_Earring.jpg"
       },
       {
         "id": 6,
@@ -46,7 +46,7 @@
         "artist": "Rembrandt van Rijn",
         "year": 1642,
         "description": "A large Baroque painting showing a city guard moving out.",
-        "imageUrl": "https://example.com/the-night-watch.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/380px-The_Night_Watch_-_HD.jpg"
       },
       {
         "id": 7,
@@ -54,7 +54,7 @@
         "artist": "Sandro Botticelli",
         "year": 1486,
         "description": "A Renaissance painting depicting the goddess Venus emerging from the sea.",
-        "imageUrl": "https://example.com/the-birth-of-venus.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/400px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
       },
       {
         "id": 8,
@@ -62,7 +62,7 @@
         "artist": "Grant Wood",
         "year": 1930,
         "description": "A painting depicting a farmer and his daughter in front of their house.",
-        "imageUrl": "https://example.com/american-gothic.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/300px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg"
       },
       {
         "id": 9,
@@ -70,7 +70,7 @@
         "artist": "Leonardo da Vinci",
         "year": 1498,
         "description": "A mural painting representing the last meal shared by Jesus with his disciples.",
-        "imageUrl": "https://example.com/the-last-supper.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/440px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg"
       },
       {
         "id": 10,
@@ -78,7 +78,7 @@
         "artist": "Claude Monet",
         "year": 1919,
         "description": "A series of paintings depicting Monet's flower garden at Giverny.",
-        "imageUrl": "https://example.com/water-lilies.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg/400px-Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg"
       },
       {
         "id": 11,
@@ -86,7 +86,7 @@
         "artist": "Pablo Picasso",
         "year": 1937,
         "description": "A large mural depicting the horrors of the Spanish Civil War.",
-        "imageUrl": "https://example.com/guernica.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/400px-PicassoGuernica.jpg"
       },
       {
         "id": 12,
@@ -94,7 +94,7 @@
         "artist": "Gustav Klimt",
         "year": 1908,
         "description": "A painting symbolizing love, showing a couple embracing in a field of flowers.",
-        "imageUrl": "https://example.com/the-kiss.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/300px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
       },
       {
         "id": 13,
@@ -102,7 +102,7 @@
         "artist": "Michelangelo",
         "year": 1512,
         "description": "A fresco painting depicting God giving life to Adam.",
-        "imageUrl": "https://example.com/the-creation-of-adam.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/270px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg"
       },
       {
         "id": 14,
@@ -110,7 +110,7 @@
         "artist": "Diego Velázquez",
         "year": 1656,
         "description": "A Baroque painting showing the Infanta Margarita Teresa surrounded by her entourage.",
-        "imageUrl": "https://example.com/las-meninas.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/300px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg"
       },
       {
         "id": 15,
@@ -118,7 +118,7 @@
         "artist": "Frida Kahlo",
         "year": 1940,
         "description": "A self-portrait reflecting the artist's pain and resilience.",
-        "imageUrl": "https://example.com/self-portrait-kahlo.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Frida_Kahlo_%28self_portrait%29.jpg/270px-Frida_Kahlo_%28self_portrait%29.jpg"
       },
       {
         "id": 16,
@@ -126,7 +126,7 @@
         "artist": "Hieronymus Bosch",
         "year": 1505,
         "description": "A triptych painting showing a fantastical landscape.",
-        "imageUrl": "https://example.com/garden-of-earthly-delights.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Garden_of_earthly_delights.jpg/550px-The_Garden_of_earthly_delights.jpg"
       },
       {
         "id": 17,
@@ -134,7 +134,7 @@
         "artist": "Raphael",
         "year": 1511,
         "description": "A fresco representing philosophy, depicting various ancient philosophers.",
-        "imageUrl": "https://example.com/school-of-athens.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/270px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg"
       },
       {
         "id": 18,
@@ -142,7 +142,7 @@
         "artist": "James McNeill Whistler",
         "year": 1871,
         "description": "A painting showing the artist's mother in profile.",
-        "imageUrl": "https://example.com/whistlers-mother.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Whistlers_Mother_high_res.jpg/300px-Whistlers_Mother_high_res.jpg"
       },
       {
         "id": 19,
@@ -150,7 +150,7 @@
         "artist": "Jan van Eyck",
         "year": 1434,
         "description": "A painting showing a wealthy couple in their home.",
-        "imageUrl": "https://example.com/arnolfini-portrait.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/270px-The_Arnolfini_portrait_%281434%29.jpg"
       },
       {
         "id": 20,
@@ -158,7 +158,7 @@
         "artist": "John Constable",
         "year": 1821,
         "description": "A landscape painting showing a rural scene with a cart in a river.",
-        "imageUrl": "https://example.com/hay-wain.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/John_Constable_-_The_Hay_Wain_%281821%29.jpg/350px-John_Constable_-_The_Hay_Wain_%281821%29.jpg"
       },
       {
         "id": 21,
@@ -166,7 +166,7 @@
         "artist": "Pierre-Auguste Renoir",
         "year": 1876,
         "description": "A painting depicting a lively dance scene at a Parisian café.",
-        "imageUrl": "https://example.com/bal-du-moulin-de-la-galette.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Mus%C3%A9e_d%27Orsay_RF_2739_%28derivative_work_-_AutoContrast_edit_in_LCH_space%29.jpg/350px-Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Mus%C3%A9e_d%27Orsay_RF_2739_%28derivative_work_-_AutoContrast_edit_in_LCH_space%29.jpg"
       },
       {
         "id": 22,
@@ -174,7 +174,7 @@
         "artist": "Claude Monet",
         "year": 1872,
         "description": "A painting that gave the name to the Impressionist movement.",
-        "imageUrl": "https://example.com/impression-sunrise.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/300px-Monet_-_Impression%2C_Sunrise.jpg"
       },
       {
         "id": 23,
@@ -182,7 +182,7 @@
         "artist": "Paul Cézanne",
         "year": 1895,
         "description": "A series of paintings depicting Provençal peasants playing cards.",
-        "imageUrl": "https://example.com/the-card-players.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Les_Joueurs_de_cartes%2C_par_Paul_C%C3%A9zanne.jpg/260px-Les_Joueurs_de_cartes%2C_par_Paul_C%C3%A9zanne.jpg"
       },
       {
         "id": 24,
@@ -190,7 +190,7 @@
         "artist": "Thomas Gainsborough",
         "year": 1770,
         "description": "A portrait of a young boy dressed in blue.",
-        "imageUrl": "https://example.com/the-blue-boy.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/The_Blue_Boy.jpg/270px-The_Blue_Boy.jpg"
       },
       {
         "id": 25,
@@ -198,7 +198,7 @@
         "artist": "Jackson Pollock",
         "year": 1948,
         "description": "An abstract expressionist painting featuring drips and splatters.",
-        "imageUrl": "https://example.com/no-5-1948.jpg"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4a/No._5%2C_1948.jpg"
       }
     ]
   }
