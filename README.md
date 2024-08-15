@@ -15,3 +15,5 @@ It features a main App component that integrates various parts of the applicatio
 6.A about component.Gives more background information on LinkArttudio.
 
 The app uses React Router for navigation between pages and fetches artwork data from a local API. 
+
+json:http://localhost:4000/artdata
