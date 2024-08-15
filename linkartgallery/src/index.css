@@ -1,5 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: opacity 0.4s ease-in-out;
+  
+  
+}
 body {
   margin: 0;
+  Background: linear-gradient(to right, #e3d9e0, #f4f4f9);
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +21,186 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.art-collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 50px;
+  padding: 30px;
+  background-color: #ecf0f1; /* Background color of the entire grid container */
+  transition: opacity 0.4s ease-in-out;
+}
+
+.art-profile {
+  width: 100%;
+  height: auto; 
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center; 
+  justify-content: center;
+  background-color: transparent; /* No background color for the container */
+  transition: transform 0.4s ease-in-out; 
+  overflow: auto;
+}
+
+.art-image {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  object-fit: contain; /* Ensure the image covers the entire grid item */
+  border: none; 
+  display: block;
+}
+
+.art-profile:hover {
+  transform: scale(1.05); /* Slight zoom-in effect */
+  overflow: auto;
+}
+
+
+.art-profile img {
+  max-width: 80%;
+  max-height: 80%;
+  display: block;
+  text-align: center;
+  align-items: baseline;
+  overflow: auto;
+}
+
+
+.art-profile p {
+  font-size: 1 rem;
+  line-height: 1.5;
+  margin-top: 10px;
+  text-align: center;
+  overflow: auto;
+
+}
+
+.navbar {
+  background: linear-gradient(to right, #e3d9e0, #f4f4f9); 
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: 0; /* Ensure it sticks to the top */
+  z-index: 1000; /* Keeps it above other content */
+  width: 100%; 
+}
+
+
+.nav-link {
+  color: #2c3e50 ;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  padding: 5px 10px;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #e74c3c;
+}
+
+
+.search {
+  display: flex;
+  justify-content: center; 
+  margin-right: 20px; 
+  padding: 10px 0;
+}
+
+
+.search input {
+  padding: 8px 15px;
+  font-size: 1em;
+  border: 2px solid #2c3e50;
+  border-radius: 20px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Focus effect */
+.search input:focus {
+  border-color: #2c3e50;;
+}
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2c3e50;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+/* Styles for blurring the background */
+.gallery-container.blur-background .art-collection {
+  filter: blur(8px);
+  pointer-events: none; /* Prevent interaction with the blurred gallery */
+}
+
+/* Overlay for the artwork details */
+.artwork-details-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+
+.close-details {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Prevent the overlay content from being blurred */
+.artwork-details-overlay .art-details {
+  filter: none;
+}
+.about-us h1 {
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us h2 {
+  font-size: 28px;
+  color: #444;
+  margin-top: 30px;
+}
+
+
+.about-us p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+.about-us img{
+  float: right;
+  margin-right: 20px; 
+  margin-bottom: 10px;
+  max-width: 40%; 
+  height: auto; 
+  border-radius: 10px; 
+
+}
+
