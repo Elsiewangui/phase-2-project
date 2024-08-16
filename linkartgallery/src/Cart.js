@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Cart({ cart, removeFromCart }) {
+function Cart({ cart, removeFromCart, buyFromCart }) {
   return (
     <div>
       <h2>Your Cart</h2>
@@ -13,6 +13,7 @@ function Cart({ cart, removeFromCart }) {
             <h3>{art.title}</h3>
             <p>{art.description}</p>
             <button onClick={() => removeFromCart(art.id)}>Remove</button>
+            <button onClick={() => buyFromCart(art.id)}>Buy</button>
           </div>
         ))
       )}
