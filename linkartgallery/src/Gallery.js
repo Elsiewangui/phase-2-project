@@ -1,39 +1,67 @@
-import React,{useState} from "react"
-import ArtworkDetails from "./ArtworkDetails"; 
+import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
+import ArtworkDetails from "./ArtworkDetails";
 
-
-function Gallery({ arts, addToMyCart,addToMyWishList }) {
+function Gallery({ arts, addToMyCart, addToMyWishList, purchased }) {
   const [selectedArt, setSelectedArt] = useState(null);
+  const navigate = useNavigate();
 
-  const handleSelectArt = (art) => {//function is called when an artwork is selected.
-    setSelectedArt(art);
+  const handleSelectArt = (art) => {
+    if (!isSold(art.id)) {
+      setSelectedArt(art);
+    }
   };
 
   const handleCloseDetails = () => {
-    setSelectedArt(null); // function is called when the user wants to close the details view deselecting the artwork.
+    setSelectedArt(null);
   };
 
-  return(
-  <div className={`gallery-container ${selectedArt ? 'blur-background' : ''}`}>
-  <div className="art-collection">
-    {arts.map((art) => (
-      <div key={art.id} className="art-profile" onClick={() => handleSelectArt(art)}>
-        <img src={art.imageUrl} width="200" alt={`${art.title} profile`} className="art-image" />
-        <p>{art.title}</p>
-        <p>{art.artist}</p>
+  const handleAddToMyCart = (art) => {
+    addToMyCart(art);
+    navigate('/cart');
+  };
+
+  const handleAddToMyWishList = (art) => {
+    addToMyWishList(art);
+    navigate('/wishlist');
+  };
+
+  const isSold = (artId) => {
+    return purchased.some((art) => art.id === artId);
+  };
+
+  return (
+    <div className={`gallery-container ${selectedArt ? 'blur-background' : ''}`}>
+      <div className="art-collection">
+        {arts.map((art) => {
+          const sold = isSold(art.id);
+          return (
+            <div
+              key={art.id}
+              className={`art-profile ${sold ? 'sold' : ''}`}
+              onClick={() => handleSelectArt(art)}
+              style={{ cursor: sold ? 'not-allowed' : 'pointer' }}
+            >
+              <img src={art.imageUrl} width="200" alt={`${art.title} profile`} className="art-image" />
+              <p>{art.title}</p>
+              <p>{art.artist}</p>
+              {sold && <span className="sold-label">SOLD</span>}
+            </div>
+          );
+        })}
       </div>
-    ))}
-  </div>
-  {selectedArt && (
+      {selectedArt && (
         <div className="artwork-details-overlay">
-          <ArtworkDetails art={selectedArt} addToMyCart={addToMyCart} addToMyWishList={addToMyWishList}/>
+          <ArtworkDetails
+            art={selectedArt}
+            addToMyCart={handleAddToMyCart}
+            addToMyWishList={handleAddToMyWishList}
+          />
           <button className="close-details" onClick={handleCloseDetails}>x</button>
         </div>
       )}
-  
- 
-</div>
-);
+    </div>
+  );
 }
 
-export default Gallery
+export default Gallery;

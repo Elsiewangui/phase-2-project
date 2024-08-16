@@ -8,13 +8,16 @@ function NavBar() {
         GALLERY
       </NavLink>
       <NavLink to="/about" className="nav-link" >
-        ABOUT US
+        ABOUT
       </NavLink>
       <NavLink to="/cart" className="nav-link" >
-        MY CART
+        CART
       </NavLink>
       <NavLink to="/wishlist" className="nav-link" >
-        MY WISHLIST
+        WISHLIST
+      </NavLink>
+      <NavLink to="/collection" className="nav-link" >
+        COLLECTION
       </NavLink>
     </nav>
   );

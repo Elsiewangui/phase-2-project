@@ -2,7 +2,7 @@
 import React from "react";
 
 function ArtworkDetails({art,addToMyCart,addToMyWishList}){
-  //child component receives the art object, addToMyCart, and addToMyWishList functions as props from app which is parent component.
+  //child component receives the art object, addToMyCart, and addToMyWishList functions as props parent component.
   
     return(
       <div className="art-profile">
