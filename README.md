@@ -19,3 +19,5 @@ It features a main App component that integrates various parts of the applicatio
 The app uses React Router for navigation between pages and fetches artwork data from a local API. 
 
 json:http://localhost:4000/artdata
+
+https://phase-2-projectt.netlify.app/gallery
