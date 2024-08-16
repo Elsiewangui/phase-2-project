@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Routes, Route } from 'react-router-dom'; //handle client side routing
+import { Routes, Route ,Navigate} from 'react-router-dom'; //handle client side routing
 import NavBar from "./NavBar";
 import Search from "./Search"
 import Gallery from "./Gallery";
@@ -79,9 +79,11 @@ const addToMyCart = (art) => {
       <NavBar />
       <Search onSearch={handleSearch} />
       <Routes>
+      <Route path="/" element={<Navigate to="/gallery" replace />} />
         <Route path="/gallery" 
-          element={<Gallery arts={filteredArts}addToMyCart={addToMyCart} addToMyWishList={addToMyWishList} purchased={purchased}/>} 
-        />
+          element={<Gallery arts={filteredArts}addToMyCart={addToMyCart}addToMyWishList={addToMyWishList}purchased={purchased} 
+          />} 
+          />
         <Route path="/cart" //specifies the url path
         element={<Cart cart={cart} removeFromCart={removeFromCart} buyFromCart={buyFromCart}/>} //specifies the react component to render
         />
