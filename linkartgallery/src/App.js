@@ -19,14 +19,19 @@ function App() {
   
   
   useEffect(() => {
-    fetch('http://localhost:4000/artdata')
+    fetch('/db.json')
       .then(response => response.json())
       .then(data => {
-        setArts(data)//sets the fetched data to state
-        setFilteredArts(data); //  shows all arts by default
+        if (data.artdata && Array.isArray(data.artdata)) {
+          setArts(data.artdata); // Set the nested array to state
+          setFilteredArts(data.artdata); // Show all arts by default
+        } else {
+          console.error('Fetched data is not structured as expected:', data);
+        }
       })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
+  
 
 
 
